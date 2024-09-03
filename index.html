@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="shortcut icon" href="./assets/logo.jpg" type="img/x-icon">
+    <title>Abhishek Lanke Portfolio</title>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><a href="#" id="logo"><img src="./assets/logo.jpg" width="70px"></a></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Education</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contect</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo"><a href="#" id="logo"><img src="./assets/logo.jpg" width="70px"></a></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contect</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/abhi.jpg" alt="Abhishek profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Abhishek Lanke</h1>
+          <p class="section__text__p2">Full Stack <span style="color: rgb(0, 0, 255);">Java Developer</span></p>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('./assets/AbhishekLankeResume.pdf')">Download CV </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+          </div>
+          <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://linkedin.com/in/abhisheklanke', '_blank');"/>
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/Abhilanke', '_blank');"/>
+            <img src="./assets/leed.png" alt="My Leedcode profile" class="icon" onclick="window.open('https://leetcode.com/u/Abhi_l_a_n_k_e/', '_blank');" />
+            <img src="./assets/hecker.png" alt="My HeckerRank profile" class="icon" onclick="window.open('https://www.hackerrank.com/profile/lankeabhishek201', '_blank');"/>
+            <img src="./assets/instagram.png" alt="My Instagram profile" class="icon" onclick="window.open('https://www.instagram.com/abhi_l_a_n_k_e', '_blank');" />
+            <img src="./assets/gmail.png" alt="My Email profile" class="icon"onclick="window.open('https://mail.google.com/', '_blank');"/>
+          </div>
+        </div>
+      </section>
+      <br><br><br><br><br><br><br><br><br><br>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/profile2.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/collage.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Education <br>2021-24</h3>
+                <p>B.Sc. Bachelors Degree<br>Computer Science</p>
+                <br>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/class.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Seven<span style="color: #db0e0e;">Mentor</span> Class</h3>
+                <p>6+ Mouth<br />Full Stack <span style="color: #681ade;">Java Developer</span></p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Looking for an <span style="color: #681ade;">entry level </span>position to Quickstart my career in software field which will
+                contribute to my professional and personal grouth
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/down-chevron.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Technical Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/html-5.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/css-3.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/bootstrap.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/java-script.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/jsp.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JSP</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+              <br><br>
+            </div>
+            <br><br><br><br><br><br>
+            
+            <div class="details-container">
+              <h2 class="experience-sub-title">Backend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/java.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JAVA</h3>
+                    <p>Core-Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/jdbc.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JDBC</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/hibernet.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Hibernate</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/database.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/spring (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/spring (1).png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Springboot</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="details-container">
+          <br>
+          <h2 class="experience-sub-title">Tool And Software</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/eclipse5466.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Eclips</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/vscode.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>VS-Code</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/Intellij.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Intellij</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/sqllogo.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>SQL</h3>
+                <p>Advanced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Soft Skills</h2>
+          <div class="article-container">
+            <article>
+              <img
+              src="./assets/solution.png"
+              alt="Experience icon"
+              class="icon"
+            />
+              <div>
+                <h3>Problem Solving</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+              src="./assets/solution.png"
+              alt="Experience icon"
+              class="icon"
+            />
+              <div>
+                <h3>Good Communication</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+              src="./assets/solution.png"
+              alt="Experience icon"
+              class="icon"
+            />
+              <div>
+                <h3>Quick Learner</h3>
+                
+              </div>
+            </article>
+            <article>
+              <img
+              src="./assets/solution.png"
+              alt="Experience icon"
+              class="icon"
+            />
+              <div>
+                <h3>TeamWork</h3>
+               
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+          src="./assets/down-chevron.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <br><br><br>
+      <section id="projects">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/cricket.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Cricket-Score-System</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Abhilanke/Cricket-Score-System'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Abhilanke/Cricket-Score-System'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/assistance.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Voice Assistant</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Abhilanke/Voice-Assistance-Project'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Abhilanke/Voice-Assistance-Project'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/cab.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Online Cab Booking</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Abhilanke/onlinecabbooking'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://abhilanke.github.io/onlinecabbooking/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/down-chevron.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/gmail.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:lankeabhishek@gmail.com">lankeabhishek@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://linkedin.com/in/abhisheklanke" target="_blank">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+      <script src="script.js"></script>
+
+    
+</body>
+</html>
